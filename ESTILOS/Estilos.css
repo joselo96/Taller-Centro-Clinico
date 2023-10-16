@@ -21,15 +21,16 @@ form{
  
 select,label,input,a{
     
-    display: flexbox; 
-    width: 40%;
+    width: 55%;
     text-align: center;
     border-radius: 12px;
-    background-color: rgb(51, 98, 98);
+    background-color: rgb(22, 72, 72);
     color: azure;
     padding: 17px;
     margin: 2px;
     font-size: 20px;
+    opacity: 90%;
+    border-color: black;
 
 }
 /*
