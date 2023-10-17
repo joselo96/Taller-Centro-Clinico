@@ -14,17 +14,17 @@
 
     <form>
         <label>Nombres</label>
-        <input id="nombre" type="text" placeholder="Ingrese Aqui su Nombre" required><br>
+        <input id="nombre_paciente" type="text" placeholder="Ingrese Aqui su Nombre" required><br>
         <label>Apellidos</label>
-        <input id="apellido"  type="text" placeholder="Ingrese Aqui sus Apellidos"  required><br>
+        <input id="apellido_paciente"  type="text" placeholder="Ingrese Aqui sus Apellidos"  required><br>
         <label>Numero de cedula</label>
-        <input id="Ncedula" type="number" placeholder="Ingrese Aqui Su Numero de Cedula" required><br>
+        <input id="Ncedula_paciente" type="number" placeholder="Ingrese Aqui Su Numero de Cedula" required><br>
         <label>Edad</label>
-        <input id="edad"  type="number" placeholder="Ingrese aqui su edad" required><br>
+        <input id="edad_paciente"  type="number" placeholder="Ingrese aqui su edad" required><br>
         <label>Telefono</label>
-        <input id="Ntelefono" type="tel" placeholder="Ingrese Aqui su numero de Telefono" required><br>
+        <input id="Ntelefono_paciente" type="tel" placeholder="Ingrese Aqui su numero de Telefono" required><br>
         <label>Especialidad Requerida</label>
-        <select id="Especialidad_paciente">
+        <select id="Especialidad_paciente" required>
             <option>---Seleccione una Opcion---</option>
             <option>Medicina General</option>
             <option>Cardiologia</option>
@@ -37,17 +37,12 @@
         </select><br>
         <br>
         <br>
-        <input type="submit" value="Enviar">
+        <input id="submit_paciente" type="submit" value="Enviar">
         
-       <a href="/HTML/Taller Centro medico/index.html"><input  id="Volver" type="button" value="Volver"></a>
-
+        <div class="volver_principal">
+            <a href="/HTML/Taller Centro medico/index.html"><input type="button" value="Volver"></a>
+        </div>
     </form>
 
-    
-        
-    
-
-    
-    
 </body>
 </html>
