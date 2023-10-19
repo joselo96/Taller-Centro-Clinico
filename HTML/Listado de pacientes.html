@@ -2,47 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listado de pacientes</title>
-    <link rel="stylesheet" href="/HTML/Taller Centro medico/ESTILOS/Estilos.css">
+    <title>Listado pacientes</title>
+    <link rel="stylesheet" href="../ESTILOS/Estilos.css">
 </head>
 <body>
     <header>
-        <h1>LISTADO DE PACIENTES</h1>
+        <h1>Centro medico Backend</h1>
     </header>
-    <main class="tabla-listado">
-        <table id="tabla-pacientes">
+    <main>
+        <h2>Listado pacientes</h2>
+        <table>
             <thead>
                 <tr>
                     <th>Nombres</th>
                     <th>Apellidos</th>
                     <th>Número de Cédula</th>
-                    <th>Consultorio</th>
+                    <th>Edad</th>
                     <th>Telefono</th>
-                    <th>Correo</th>
                     <th>Especialidad</th>
-                    <th>Paciente</th>
+                    <th>Medico</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="cuerpo-tabla-pacientes">
+                <!-- Se agraga el contenido dinamicamente por medio de JS -->
                 <tr>
-                    <td>Liliana</td>
-                    <td>Herrera</td>
-                    <td>123456789</td>
-                    <td>101</td>
-                    <td>3216549787</td>
-                    <td>liliana@gmail.com</td>
+                    <td>José</td>
+                    <td>Martinez</td>
+                    <td>987456</td>
+                    <td>54</td>
+                    <td>34545697</td>
                     <td>Medicina general</td>
-                    <td>Simba</td>
+                    <td>Liliana</td>
                 </tr>
             </tbody>
         </table>
-        <div class="volver_principal">
-            <a href="/HTML/Taller Centro medico/index.html"><input type="button" value="Volver"></a>
-        </div>
-        <script src="/HTML/Taller Centro medico/JAVASCRIPT/app.js"></script>
-
+        <a href="../index.html"><input type="button" value="Volver"></a>
     </main>
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Grupo 1 desarrollo web backend</p>
+    </footer>
+    <script src="../app.js"></script>
 </body>
 </html>

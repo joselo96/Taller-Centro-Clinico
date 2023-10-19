@@ -1,52 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de medicos</title>
-    <link rel="stylesheet" href="/HTML/Taller Centro medico/ESTILOS/Estilos.css">
+    <title>Registro médicos</title>
+    <link rel="stylesheet" href="../ESTILOS/Estilos.css">
 </head>
 <body>
     <header>
-        <h1>REGISTRO DE MEDICOS</h1>
+        <h1>Centro médico Backend</h1>
     </header>
-
-    <form>
-        <label>Nombres</label>
-        <input id="nombre_medico" type="text" placeholder="Ingrese Aqui su Nombre" required><br>
-        <label>Apellidos</label>
-        <input id="apellido_medico" type="text" placeholder="Ingrese Aqui sus Apellidos"  required><br>
-        <label>Numero de cedula</label>
-        <input id="cedula_medico" type="number" placeholder="Ingrese Aqui Su Numero de Cedula" required><br>
-        <label>Numero de Consultorio</label>
-        <input id="consultorio" type="number" placeholder="Ingrese aqui su Numero de Consultorio" required><br>
-        <label>Telefono</label>
-        <input id="Ntelefono_medico" type="tel" placeholder="Ingrese Aqui su numero de Telefono" required><br>
-        <label>Correo Electronico</label>
-        <input id="email" type="email" placeholder="Ingrese aqui su Correo Electronico"  required><br>
-        <label>Especialidad</label>
-        <select id="especialidad_medico" required>
-            <option>---Seleccione una Opcion---</option>
-            <option>Medicina General</option>
-            <option>Cardiologia</option>
-            <option>Medicina Interna</option>
-            <option>Dermatologia</option>
-            <option>Rehabilitacion</option>
-            <option>Psicologia</option>
-            <option>Odontologia</option>
-            <option>Radiologia</option>
-        </select><br>
-        <br>
-        <br>
-        <input id="subir_m" type="submit" value="Enviar">
-        
-        <div class="volver_principal">
-            <a href="/HTML/Taller Centro medico/index.html"><input type="button" value="Volver"></a>
+    <main>
+        <h2>Registro médicos</h2>
+        <div class="container-form">
+            <form id="registro-medicos-form">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <label for="cedula">Número de cedula:</label>
+                <input type="number" id="cedula" name="cedula" required>
+                <label for="consultorio">Número de consultorio:</label>
+                <input type="number" id="consultorio" name="consultorio" required>
+                <label for="telefono">Telefono:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+                <label for="correo">Correo electonico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="especialidad">Especialidad:</label>
+                <select name="especialidad" id="especialidad" required>
+                    <option value="">----------Seleccione una opcion-----------</option>
+                    <option value="Medicina general">Medicina general</option>
+                    <option value="Cardiología">Cardiología</option>
+                    <option value="Medicina interna">Medicina interna</option>
+                    <option value="Dermatología">Dermatología</option>
+                    <option value="Rehabilitación física">Rehabilitación física</option>
+                    <option value="Psicología">Psicología</option>
+                    <option value="Odontología">Odontología</option>
+                    <option value="Radiología">Radiología</option>
+                </select>
+                <input type="submit" value="Enviar">
+            </form>
+            <a href="../index.html"><input type="button" value="Volver"></a>
         </div>
-    </form>
-
-    
-    <script src="/HTML/Taller Centro medico/JAVASCRIPT/app.js"></script>
+    </main>
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Grupo 1 desarrollo web backend</p>
+    </footer>
+    <script src="../app.js"></script>
 </body>
 </html>
