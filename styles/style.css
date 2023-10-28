@@ -1,9 +1,4 @@
-body{
-    width: 90%;
-    display: block;
-    
-}
-form{
+/* form{
     
     background-position: 20%;
     
@@ -14,15 +9,15 @@ a{
     text-decoration: none;
 }
 select,label,input,ul{
-width: 60%;
+    width: 30%;
     margin: 20px;
-    padding: 17px;
     text-align: center;
     border-radius: 12px;
     background-color: rgb(22, 72, 72);
     color: rgb(185, 223, 223);
     font-size: 20px;
     border-color: black;
+    padding-inline: 30%;
     
 
 }
@@ -72,7 +67,4 @@ th {
 
 .tabla-container {
     max-width: 80%;
-}
-.listado-container {
-    max-width: 70%;
-}
+} */
